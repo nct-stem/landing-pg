@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 /* ... */
+
+.no-body-card .ant-card-body {
+  display: none;
+}
