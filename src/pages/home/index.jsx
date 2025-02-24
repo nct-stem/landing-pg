@@ -102,6 +102,7 @@ const HomePage = () => {
             <Title level={2} className="text-center mb-12">
               What We Offer
             </Title>
+            <p>Hello World</p>
             <Row gutter={[24, 24]}>
               {features.map((feature, index) => (
                 <Col xs={24} sm={12} md={6} key={index}>
